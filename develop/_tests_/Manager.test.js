@@ -1,23 +1,23 @@
-const Engineer = require('../lib/Engineer');
+const Manager = require('../lib/Manager');
 
-describe('Engineer', () => {
+describe('Manager', () => {
 	it('should return name', () => {
-	const newEngineer = new Engineer('John', '1', 'test@gmail.com', 'Jax-O')
-	expect(newEngineer.getName()).toBe('John')
+		const newManager = new Manager('John', '1', 'test@gmail.com', '305-221-8015')
+		expect(newManager.getName()).toBe('John')
 	});
 
 	it('should return id' , () => {
-		const newEngineer = new Engineer('John', '1', 'test@gmail.com', 'Jax-O')
-	expect(newEngineer.getId()).toBe('1')
+		const newManager = new Manager('John', '1', 'test@gmail.com', '305-221-8015')
+		expect(newManager.getId()).toBe('1')
 	});
 
 	it('should return email' , () => {
-		const newEngineer = new Engineer('John', '1', 'test@gmail.com', 'Jax-O')
-	expect(newEngineer.getEmail()).toBe('test@gmail.com')
+		const newManager = new Manager('John', '1', 'test@gmail.com', '305-221-8015')
+		expect(newManager.getEmail()).toBe('test@gmail.com')
 	});
 
-	it('should return github username' , () => {
-		const newEngineer = new Engineer('John', '1', 'test@gmail.com', 'Jax-O')
-	expect(newEngineer.getGitHub()).toBe('Jax-O')
+	it('should return office number' , () => {
+		const newManager = new Manager('John', '1', 'test@gmail.com', '305-221-8015')
+		expect(newManager.getOffice()).toBe('305-221-8015')
 	});
 })

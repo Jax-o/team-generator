@@ -7,12 +7,12 @@ describe('Employee', () => {
 	});
 
 	it('should return id' , () => {
-	const newEmployee = new Employee('id')
+	const newEmployee = new Employee('John', '1', 'test@gmail.com')
 	expect(newEmployee.getId()).toBe('1')
 	});
 
 	it('should return email' , () => {
-	const newEmployee = new Employee('email')
+	const newEmployee = new Employee('John', '1', 'test@gmail.com')
 	expect(newEmployee.getEmail()).toBe('test@gmail.com')
 	});
 })
