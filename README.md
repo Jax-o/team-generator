@@ -6,6 +6,7 @@ This is a team profile generator that takes in information about employees on a 
 
 ##URL 
 https://watch.screencastify.com/v/ne4xj5cv6xtvxLdo0Ev9
+
 ##Credits
 
 tutor Godfrey B.
